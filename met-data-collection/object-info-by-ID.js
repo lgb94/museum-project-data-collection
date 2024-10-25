@@ -15,8 +15,6 @@ function getObjectDetails(objectID) {
         });
 }
 
-// Replace this with object ID you want info for
-
 const objectID =  395290 ;  
 
 getObjectDetails(objectID);
