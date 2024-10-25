@@ -1,3 +1,10 @@
+/* 
+This function was made much later than the others in this repo, in fact i had to create this halfway through the backend to find an errant object that was refusing to be entered into my database.
+
+There was one object with an absurdly long entry for the medium field that didnt want to go in using my seed function, so this function was made to sniff it out and log it.
+
+*/
+
 const unifiedDataset = require('./unified-data-set.json');
 
 function listLongMediums(dataset) {
